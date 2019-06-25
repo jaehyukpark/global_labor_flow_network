@@ -1,6 +1,6 @@
 import sys
 import pythonlouvain as pylouvain
-import pythonlouvain.undirected
+import pythonlouvain.undirected as undirectedlouvain
 import os
 import glob
 import networkx as nx
@@ -74,7 +74,7 @@ def ItrLouvain(G=None, out_fname='itr_louvain_cls.txt', max_comm_size = 10, verb
         if directed:
             node2comm = pylouvain.best_partition(subg)
         else:
-            node2comm = pylouvain.undirected.best_partition(subg)
+            node2comm = undirectedlouvain.best_partition(subg)
         
         if(len(set(node2comm.values())) > 1):
             update_comm2nodes(node2comm, parent_cid=commid)
