@@ -1,5 +1,5 @@
 # global_labor_flow_network
-This package aims to share the core algorithms used in the paper, "Global labor flow network reveals the hierarchical organization and dynamics of geo-industrial clusters"
+This package aims to share the core algorithms used in the paper, ["Global labor flow network reveals the hierarchical organization and dynamics of geo-industrial clusters", Nature Communications, 2019](https://www.nature.com/articles/s41467-019-11380-w?fbclid=IwAR3vzu_MuIK72blQjGW9jfK5cqEhC51SMAwhX1yBKhp17orVpkigx8VIBc8)
 
 There are three main algorithms:
 1. Recursive Louvain
